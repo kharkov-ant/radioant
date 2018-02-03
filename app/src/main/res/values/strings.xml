@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Интернет радио</string>
+    <string name="play">Играть</string>
+    <string name="loading">Загрузка</string>
+    <string name="pause">Пауза</string>
+</resources>
