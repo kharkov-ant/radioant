@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
     lateinit private var butt6: Button
 
     override fun onClick(p0: View?) {
-        when (p0?.getId()) {
+        when (p0?.id) {
             R.id.button1 -> {
                 val intent1 = Intent(this, Radio::class.java)
                 intent1.putExtra("site",RadioEnum.KissFM.url)
